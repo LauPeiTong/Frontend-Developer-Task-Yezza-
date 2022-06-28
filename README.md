@@ -7,4 +7,4 @@ The following is the layout of Calendar Page:
 
 ## Tasks 1.2: API Binding
 Using the APIs below, bind the dates to the calendar.The following is the layout of Calendar Page: 
-![GitHub Logo](/Task1-1.jpg)
+![GitHub Logo](/Task1-2.jpg)
