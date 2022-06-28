@@ -110,6 +110,8 @@
         }),
 
         async created (){
+            //Since the linked given has achieved their request limit, so I use another link to do this tasks, the dates in the new links may be different from the original links.
+
             const response1 = await axios.get("https://laupeitong7.free.beeceptor.com/reserved_date");
             this.reservedDate = response1.data;
 
