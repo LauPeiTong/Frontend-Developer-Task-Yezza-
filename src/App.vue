@@ -24,9 +24,12 @@
       </v-btn>
 
       <v-btn to="/request">
+      
         <span>Request</span>
+        <v-badge dot overlap color="red" offset-y="20" >
+          <v-icon>mdi-briefcase-outline</v-icon>
 
-        <v-icon>mdi-briefcase-outline</v-icon>
+        </v-badge>
       </v-btn>
 
       <v-btn to="/client">
@@ -46,11 +49,7 @@
 </template>
 
 <script>
-  export default {
-    data: () => ({ 
-      
-      }),
-  }
+  
 </script>
 
 <style>
