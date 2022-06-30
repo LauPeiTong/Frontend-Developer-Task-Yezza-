@@ -77,36 +77,8 @@
             blockedDate: [],
             reservedDate: [],
             date1: (new Date(Date.now() - (new Date()).getTimezoneOffset() * 60000)).toISOString().substr(0, 10),
-
-            items: [
-                {
-                id: 1,
-                date: "2022-06-23",
-                title: 'Nestle - Milo',
-                subtitle: `<span class="d-flex justify-end" >Unpaid</span>`,
-                },
-                { divider: true,
-                date: "2022-06-23"},
-                {
-                id: 2,
-                date: "2022-06-23",
-                title: 'Goldiva Chocolatier',
-                subtitle: `<span class="d-flex justify-end">Unpaid</span>`,
-                },
-                { divider: true,
-                date: "2022-06-23"},
-                {
-                id: 3,
-                date: "2022-06-28",
-                title: 'Chocolate',
-                subtitle: `<span class="d-flex justify-end">Paid</span>`,
-                },
-                { divider: true,
-                date: "2022-06-28"},
+            items: [],
             
-            ],
-        
-        
         }),
 
         async created (){
