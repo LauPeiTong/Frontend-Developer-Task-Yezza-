@@ -80,11 +80,10 @@
         async created (){
             this.selectedDate = this.$store.state.selectedDate
 
-            const response1 = await axios.get("https://laupeitong7.free.beeceptor.com/reserved_date");
+            const response1 = await axios.get("https://interviewtest.free.beeceptor.com/calendar/reserved_dates");
             this.reservedDate = response1.data;
 
-            const response2 = await axios.get("https://laupeitong7.free.beeceptor.com/blocked_date");
-
+            const response2 = await axios.get("https://interviewtest.free.beeceptor.com/calendar/blocked_dates");
             this.blockedDate = response2.data;
 
             // this.reservedDate = ["2022-06-17", "2022-06-18", "2022-06-23"]

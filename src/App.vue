@@ -1,15 +1,11 @@
 <template>
 <div id="app">
   <v-app >
-    <v-main>
-      <router-view></router-view>
-    </v-main>
-  
     <v-bottom-navigation
       class="pa-2"
       color="#231F20"
       min-height="64px"
-      absolute
+      fixed
       grow
       >
       <v-btn to="/">
@@ -45,6 +41,11 @@
         <v-icon>mdi-account-outline</v-icon>
       </v-btn>
     </v-bottom-navigation>
+    
+    <v-main>
+      <router-view></router-view>
+    </v-main>
+  
 
   </v-app>
 </div>
