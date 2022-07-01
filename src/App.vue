@@ -9,6 +9,7 @@
       class="pa-2"
       color="#231F20"
       min-height="64px"
+      absolute
       grow
       >
       <v-btn to="/">
