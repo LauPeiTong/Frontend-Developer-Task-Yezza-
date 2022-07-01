@@ -12,3 +12,6 @@ Using the APIs below, bind the dates to the calendar.The following is the layout
 2. https://laupeitong7.free.beeceptor.com/blocked_date
 
 ![GitHub Logo](/Task1-2.jpg)
+
+## Task 1.3: Persisting Data
+Using vuex, persist the selected date to local storage. 
