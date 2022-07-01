@@ -1,6 +1,6 @@
 <template>
-  <v-app id="inspire">
-
+<div id="app">
+  <v-app >
     <v-main>
       <router-view></router-view>
     </v-main>
@@ -47,6 +47,7 @@
     </v-bottom-navigation>
 
   </v-app>
+</div>
 </template>
 
 <script>

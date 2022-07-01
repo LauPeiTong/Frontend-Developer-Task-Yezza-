@@ -4,8 +4,6 @@ import Home from '../views/Home.vue'
 
 Vue.use(VueRouter)
 
-var bus = new Vue()
-
 const routes = [
   {
     path: '/',
@@ -31,9 +29,9 @@ const routes = [
     component: () => import(/* webpackChunkName: "client" */ '../views/Client.vue')
   },
   {
-    path: '/home',
-    name: 'home',
-    component: () => import(/* webpackChunkName: "home" */ '../views/Home.vue')
+    path: '/menu',
+    name: ' menu',
+    component: () => import(/* webpackChunkName: "menu" */ '../views/Menu.vue')
   }
 ]
 
