@@ -80,14 +80,14 @@
         async created (){
             this.selectedDate = this.$store.state.selectedDate
 
-            // const response1 = await axios.get("https://laupeitong7.free.beeceptor.com/reserved_date");
-            // this.reservedDate = response1.data;
+            const response1 = await axios.get("https://interviewtest.free.beeceptor.com/calendar/reserved_dates");
+            this.reservedDate = response1.data;
 
-            // const response2 = await axios.get("https://laupeitong7.free.beeceptor.com/blocked_date");
-            // this.blockedDate = response2.data;
+            const response2 = await axios.get("https://interviewtest.free.beeceptor.com/calendar/blocked_dates");
+            this.blockedDate = response2.data;
 
-            this.reservedDate = ["2022-06-17", "2022-06-18", "2022-06-23"]
-            this.blockedDate = ["2022-07-03", "2022-06-27", "2022-06-04", "2022-06-05"]
+            // this.reservedDate = ["2022-06-17", "2022-06-18", "2022-06-23"]
+            // this.blockedDate = ["2022-07-03", "2022-06-27", "2022-06-04", "2022-06-05"]
 
             this.items = []
 
